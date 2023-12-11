@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="java.awt.PopupMenu" name="popupMenu1">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="popupMenu1"/>
+      </Properties>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="FarmsBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="ArticleBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="RecipeBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="424" max="-2" attributes="0"/>
+                      <Component id="TipsBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" min="-2" pref="274" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="VeganBtn" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+                              <Component id="VegetarianBtn" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="MeatBtn" min="-2" pref="113" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="969" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FarmsBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ArticleBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RecipeBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TipsBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="119" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="MeatBtn" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="VegetarianBtn" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="VeganBtn" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="450" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="187" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="FarmsBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Farms"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FarmsBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ArticleBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Article"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="RecipeBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Recipes"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="Info">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="This is the section on recipes which will be&#xa;focused around economic sustainability and &#xa;making sure the ingredients used are fresh &#xa;and locally sourced. &#xa;There will be 3 recipes - a meat meal, a &#xa;vegetarian meal, and a vegan meal"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JRadioButton" name="MeatBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Meat Meal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MeatBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="VegetarianBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vegetarian Meal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="VegetarianBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="VeganBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vegan Meal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="VeganBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="RecipeBox">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="TIPS FOR EATING SUSTAINABLY&#xa;&#xa;1. EAT MORE PLANTS&#xa;Farming animals for meat and dairy requires space and huge amounts of water and feed. &#xa;The livestock industry alone generates nearly 15% of all man made greenhouse gas emissions. &#xa;With global meat consumption soaring 500% between 1992 and 2016, it is clear we need to rebalance our diets by prioritising plants and moderating our intake of animal products. &#xa;&#xa;2. EAT MORE VARIETY&#xa;75% of the world&#x2019;s food supply comes from just 12 plants and five animal species. &#xa;Greater diversity in our diets is essential as the lack of variety in agriculture is both bad for nature and a threat to food security. &#xa;&#xa;3. CUT THE WASTE&#xa;Food waste is a big problem. 30% of the food produced is wasted, with serious repercussions for the environment. &#xa;In fact, if food waste was a country it would be the 3rd largest emitter of greenhouse gasses after China and the USA.  &#xa;Reducing waste in your household is simple: freeze anything you can&#x2019;t eat while it&#x2019;s fresh and, where possible, buy loose produce so you can select the exact amount that you need.&#xa;&#xa;4. GROW YOUR OWN FOOD&#xa;What&#x2019;s better than fresh, home-grown produce straight from the garden? &#xa;As well as being healthy and delicious, it is free from the carbon footprint of shop-bought food.&#xa;&#xa;5. PASS ON PLASTIC&#xa;Plastic has infiltrated our natural world and even our diets. &#xa;Bring a reusable-bag when you shop, opt for packaging-free fruit and vegetables where possible, and ask brands and retailers that continue to use plastic to find alternatives.&#xa;&#xa;6. EAT WHAT&#x2019;S IN SEASON&#xa;When possible try to include seasonal produce from your local farm shop or greengrocer in your diet. &#xa;As well as supporting your local economy, you might get to know local producers and get tips on how to prepare seasonal foods."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="TipsBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tips !"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TipsBtnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
