@@ -9,14 +9,17 @@ package farmsapp;
  * @author jamie
  */
 public class CropFarms extends FarmsApp {
-    public final String cropType;
 
-    public CropFarms(int id, String name, String location, String description, String cropType) {
-        super(id, name, location, description);
+    /**
+     *
+     */
+    public String cropType = null;
+
+    public CropFarms (int farmID, String name, String location, String description, String cropType) {
+        super(farmID, name, location, description);
         this.cropType = cropType;
     }
 
-    
     
     @Override
     public String toString() {

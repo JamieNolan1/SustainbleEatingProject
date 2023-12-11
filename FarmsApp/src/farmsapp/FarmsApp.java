@@ -1,35 +1,66 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package farmsapp;
 
 /**
- *
- * @author jamie
+ * Base class
  */
-import java.util.Scanner;
+public class FarmsApp {
 
-// Base class
-class FarmsApp  {
-    public int id;
-    public String name;
-    public String location;
-    public String description;
+    // Properties
+    private final int id;
+    private String name;
+    private String location;
+    private String description;
 
-    public FarmsApp (int id, String name, String location, String description) {
-        this.id = id;
+    // Constructor
+    public FarmsApp(int farmID, String name, String location, String description) {
+        this.id = farmID;
         this.name = name;
         this.location = location;
         this.description = description;
     }
 
+    // Getter methods
     public int getId() {
         return id;
     }
 
-    @Override
-    public String toString() {
-        return "Farm ID: " + id + "\nName: " + name + "\nLocation: " + location + "\nDescription: " + description;
+    public String getName() {
+        return name;
+    }
+
+    // Setter method for name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    // Setter method for location
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    // Setter method for description
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        // Your main method code here
+    }
+
+    // Farm search method
+    public static void farmSearch() {
+        // Your farmSearch method code here
     }
 }
+
+

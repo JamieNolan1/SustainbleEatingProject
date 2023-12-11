@@ -9,13 +9,20 @@ package farmsapp;
  * @author jamie
  */
 public class LivestockFarms extends FarmsApp {
-    public final int numberOfAnimals;
+
+    /**
+     *
+     */
+    public int numberOfAnimals;
     
     
 
-    public LivestockFarms(int id, String name, String location,String description, int numberOfAnimals) {
-        super(id, name, location,description);
+    
+
+    public LivestockFarms(int farmID, String name, String location, String description, int numberOfAnimals) {
+        super(farmID, name, location,description);
         this.numberOfAnimals = numberOfAnimals;
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         
     }
     

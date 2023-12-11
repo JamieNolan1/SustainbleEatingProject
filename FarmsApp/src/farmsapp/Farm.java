@@ -14,19 +14,21 @@ public class Farm {
     /**
      *
      */
-    public static Farm[] farms;
+    public static Farm[] farmGroups;
+
+   
+    
     
    
     
     public static void initializeFarms() {
-        farms = new Farm[]{
+        farmGroups = new Farm[]{
         new CropFarms(1, "name", "location", "description", "carrots"),
         new CropFarms(2, "name", "location", "description", "carrots"),
         new CropFarms(3, "name", "location", "description", "carrots"),
-        new LivestockFarm(4, "name", "location", "description", 100),
-        new LivestockFarm(5, "name", "location", "description", 100),
-        new LivestockFarm(6, "name", "location", "description", 100)    
-    };
+        new LivestockFarms(4, "name", "location", "description", 100),
+        new LivestockFarms(5, "name", "location", "description", 100),
+        new LivestockFarms(6, "name", "location", "description", 100) };
   }
     
   public static void searchFarmById(){
@@ -36,9 +38,10 @@ public class Farm {
       int searchId = scanner.nextInt();
       
       Farm foundFarm = null;
+        Iterable<Farm> farmGroups = null;
       
-      for(Farm farm : farms){
-          if (farm.getId() == searchId) {
+      for(Farm farm : farmGroups = null){
+          if (farm.getfarmID() == searchId) {
               foundFarm = farm;
               break;
           }
@@ -49,16 +52,21 @@ public class Farm {
           System.out.println("Farm not found with Id: " + searchId);
           }
       }
+  
+   public static Farm[] getFarmGroups() {
+        return farmGroups;
+    }
 
-    private int getId() {
+    public static void setFarmGroups(Farm[] farmGroups) {
+        Farm.farmGroups = farmGroups;
+    }
+
+    private int getfarmID() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    private static class LivestockFarm extends Farm {
-
-        public LivestockFarm(int i, String name, String location, String description, int i0) {
-        }
-    
+   
+   
     }
-  }
+  
 
